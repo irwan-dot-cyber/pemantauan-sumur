@@ -2,10 +2,9 @@
 
 ## Buka aplikasi
 
-- GitHub Pages: https://irwan-dot-cyber.github.io/pemantauan-sumur/ — mode coba, menyimpan data hanya pada browser/perangkat yang sama.
-- Aplikasi tersinkron Google Sheet: https://script.google.com/macros/s/AKfycbwUZhqJJW63Y20EelOnefPg4X7fq3fWm0nFxGZYIuspi-kF5lHhg0ia2JPfjbcIpjpH/exec — menyimpan progres di Sheet dan foto di Drive. Saat ini deployment Apps Script dibatasi untuk akun Google pemilik (“Only myself”). Gunakan tombol di bagian atas GitHub Pages untuk membuka versi ini.
+[Alamat GitHub Pages](https://irwan-dot-cyber.github.io/pemantauan-sumur/) langsung membuka [aplikasi Apps Script](https://script.google.com/macros/s/AKfycbwUZhqJJW63Y20EelOnefPg4X7fq3fWm0nFxGZYIuspi-kF5lHhg0ia2JPfjbcIpjpH/exec). Progres Sumur C, E, G, K tersimpan pada tab Google Sheet masing-masing; foto tersimpan di Google Drive. Halaman GitHub Pages hanyalah pengalih alamat, bukan formulir penyimpanan terpisah.
 
-Data yang diisi dalam mode coba tidak otomatis dipindahkan ke Google Sheet. Jangan menaruh token API atau kredensial di GitHub Pages.
+Deployment Apps Script saat ini memiliki akses **Only myself**. Pengguna harus masuk dengan akun Google pemilik deployment untuk membuka dan menyimpan data. Repo dan alamat GitHub Pages publik tidak membuat akses Google Sheet otomatis publik.
 
 ## Integrasi Vercel (opsional, belum dipakai)
 
