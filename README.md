@@ -1,4 +1,13 @@
-# Pemantauan Progres Sumur — Vercel
+# Pemantauan Progres Sumur
+
+## Buka aplikasi
+
+- GitHub Pages: https://irwan-dot-cyber.github.io/pemantauan-sumur/ — mode coba, menyimpan data hanya pada browser/perangkat yang sama.
+- Aplikasi tersinkron Google Sheet: https://script.google.com/macros/s/AKfycbwUZhqJJW63Y20EelOnefPg4X7fq3fWm0nFxGZYIuspi-kF5lHhg0ia2JPfjbcIpjpH/exec — menyimpan progres di Sheet dan foto di Drive. Saat ini deployment Apps Script dibatasi untuk akun Google pemilik (“Only myself”). Gunakan tombol di bagian atas GitHub Pages untuk membuka versi ini.
+
+Data yang diisi dalam mode coba tidak otomatis dipindahkan ke Google Sheet. Jangan menaruh token API atau kredensial di GitHub Pages.
+
+## Integrasi Vercel (opsional, belum dipakai)
 
 Frontend untuk Sumur C, E, G, K dengan API Vercel yang meneruskan operasi ke Apps Script. Data tanggal, foto, keterangan, dan progres fisik tetap tersimpan di Google Sheet/Drive yang telah dipakai.
 
